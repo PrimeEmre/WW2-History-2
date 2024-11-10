@@ -95,6 +95,15 @@ input, select, textarea {
 	appearance: none;
 }
 
+img{
+	width: 50%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding: 1rem;
+	border-radius: 10%;
+}
+
 /* Basic */
 
 	@-ms-viewport {
