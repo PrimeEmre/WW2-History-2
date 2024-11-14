@@ -3274,7 +3274,12 @@ img{
 		position: relative;
 		z-index: 1;
 		overflow: hidden;
+		
 	}
+	::selection {
+		background-color: #ffcc00; /* Yellow highlight background */
+		color: #000000; /* Black highlight text */
+	  }
 
 		#wrapper > .bg {
 			position: absolute;
