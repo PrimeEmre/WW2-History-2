@@ -4245,6 +4245,9 @@ img{
 			text-align: center;
 			margin-left: 40vw;
 			margin-top: 1vw;
+			background: white;
+			color: white;
+			margin-right: 3vw;
 		}
 
 		#footer > section {
