@@ -4241,6 +4241,11 @@ img{
 		#footer .pagination span {
 			color: #e2e2e2;
 		}
+		.pagination{
+			text-align: center;
+			margin-left: 40vw;
+			margin-top: 1vw;
+		}
 
 		#footer > section {
 			-moz-flex-basis: 50%;
