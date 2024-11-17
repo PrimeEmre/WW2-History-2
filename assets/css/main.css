@@ -108,7 +108,7 @@ input, select, textarea {
 }
 
 img{
-	width: 50%;
+	width: 100%;
 	text-align: center;
 	display: flex;
 	justify-content: center;
@@ -3051,10 +3051,38 @@ img{
 
 /* Table */
 
+	table{
+		color: white;
+		}
+
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
+		background-color: black;
+		color: white;
+		font-size: 1.2rem;
+		width: 100%;
+		font-style: italic;
+		font-weight: 900;
 	}
+
+	th, td {
+		border: 1px solid black;
+		padding: 8px;
+		text-align: left;
+		color: white;
+	  }
+	  
+	  tr:nth-child(even) {
+		background-color: black;
+	  }
+	  
+	  tr:hover {
+		background-color: dodgerblue;
+		color: white;
+		/* Change row background color on hover */
+		cursor: pointer;          /* Optional: change cursor to indicate interactivity */
+	  }
 
 	table {
 		margin: 0 0 2rem 0;
@@ -3080,6 +3108,7 @@ img{
 			padding: 0 0.75rem 0.75rem 0.75rem;
 			text-align: left;
 			text-transform: uppercase;
+			
 		}
 
 			@media screen and (max-width: 980px) {
@@ -3133,7 +3162,7 @@ img{
 		}
 
 	table th {
-		color: #212931;
+		color: white;
 	}
 
 	table thead {
