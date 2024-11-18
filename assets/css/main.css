@@ -3057,6 +3057,7 @@ img{
 
 	table{
 		color: white;
+		text-align: center;
 		}
 
 	.table-wrapper {
@@ -3068,7 +3069,8 @@ img{
 		width: 100%;
 		font-style: italic;
 		font-weight: 900;
-		margin-bottom: 2rem;
+		text-align: center;
+		justify-content: center;
 	}
 
 	th, td {
