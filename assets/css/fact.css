@@ -2671,12 +2671,19 @@ img{
 			top: 0.75rem;
 		}
 
+		.image_size{
+			margin-left: 25%;
+			width: 40svw;
+			margin-bottom: 2rem;
+			text-align: center;
+		}
+
 		.image.fit {
 			display: flex;
 			margin: 2.5rem 0;
 			text-align: center;
-            width: 65%;
-            margin-left: 20%;
+            width: 30vw;
+            margin-left: 10%;
 		}
 
 			.image.fit:first-child {
