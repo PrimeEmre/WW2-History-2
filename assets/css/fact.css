@@ -2672,8 +2672,8 @@ img{
 		}
 
 		.image_size{
-			margin-left: 25%;
-			width: 40svw;
+			margin-left: 30%;
+			width: 20vw;
 			margin-bottom: 2rem;
 			text-align: center;
 		}
@@ -2682,7 +2682,7 @@ img{
 			display: flex;
 			margin: 2.5rem 0;
 			text-align: center;
-            width: 30vw;
+            width: 20vw;
             margin-left: 10%;
 		}
 
