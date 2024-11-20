@@ -108,6 +108,7 @@ input, select, textarea {
 }
 
 img{
+	width: 100%;
 	text-align: center;
 	display: flex;
 	justify-content: center;
@@ -2671,10 +2672,11 @@ img{
 		}
 
 		.image.fit {
-			display: block;
+			display: flex;
 			margin: 2.5rem 0;
-			width: 100%;
 			text-align: center;
+            width: 65%;
+            margin-left: 20%;
 		}
 
 			.image.fit:first-child {
